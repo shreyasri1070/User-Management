@@ -1,4 +1,4 @@
-/* Default table styles (Desktop behavior remains same) */
+
 
 /* Mobile View */
 @media (max-width: 600px) {
@@ -8,7 +8,7 @@
   }
 
   .thead {
-    display: none; /* Hide table header in mobile */
+    display: none;
   }
 
   .row {

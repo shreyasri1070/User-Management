@@ -54,12 +54,10 @@ const UserDetail: React.FC = () => {
   // LOADING STATE
   if (loading) return <Spinner />;
 
-  // ERROR
   if (error) return <div className="container"> Error: {error}</div>;
 
   if (!user) return <div className="container">User not found</div>;
 
-  // UI
   return (
     <div className="container detail">
       <h2>{user.name}</h2>
